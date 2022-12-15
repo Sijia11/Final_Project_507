@@ -77,3 +77,10 @@ Required Python packages
 * `creste_json.py` is a file that constrcuts the tree from stored data
 * `read_json_tree.py` is a file that reads the json of the tree
 * `json_tree.json` is a json file with the tree
+
+## Caching
+The raw results has been cached for the data from APIs. 
+
+The cache is store in `final_project_cache.json` file. 
+
+`pre_load.py` is a file that pre-populate the cache file.
