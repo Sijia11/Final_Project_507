@@ -35,7 +35,7 @@ Required Python packages
    ```
 3. Install Python packages
    ```sh
-   pip install
+   pip install flask requests treelib
    ```
 4. Enter your API in `secrets_key.py`
    ```py
