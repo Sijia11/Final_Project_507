@@ -23,7 +23,7 @@ To get a local copy up and running follow these simple example steps.
 Required Python packages
 * pip
   ```sh
-  pip install flask requests treelib
+  pip install flask requests treelib plotly
   ```
 
 ### Installation
@@ -36,7 +36,7 @@ Required Python packages
    ```
 3. Install Python packages
    ```sh
-   pip install flask requests treelib
+   pip install flask requests treelib plotly
    ```
 4. Enter your API in `secrets_key.py`
    ```py
