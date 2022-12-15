@@ -32,7 +32,7 @@ Required Python packages
 2. Get a free weather API key at [https://openweathermap.org/](https://openweathermap.org/)
 3. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/Sijia11/Final_Project_507.git
    ```
 3. Install Python packages
    ```sh
