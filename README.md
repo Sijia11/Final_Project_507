@@ -63,6 +63,10 @@ Required Python packages
 * Hit the submit button.
 
 * You will see the results showing in a table.
+<p align="center" width="100%">
+    <img width="100%" src="Image/Result.png">
+</p >
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
