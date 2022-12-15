@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf8"/>
+
+    <title>Spetacular Parks</title>
+
+</head>
+<body>
+  <form action="/handle_form" method="POST">
+    <!-- <p>
+        What's your location? <input name="location" type="text"/><br/><br/><br/>
+        What knid of meal do you like? <input name="meal" type="text"/><br/><br/>
+    </p>
+    
+    <p>
+        What's your fave color?
+        <select name="colors">
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="red">Red</option>
+        </select>
+    </p> -->
+    <h1>
+        Welcome to Spectacular Parks! 
+    </h1>
+    <h2>Enter the information below to find out parks most suitable for stargazing!
+    </h2>
+
+    <p>
+        Do you want to enter your begining location? or directly search a park?<br/>
+
+        <!-- Do you want to enter your begining location? or directly search a park?<br> -->
+        <input type="radio" name="search_type" value="1">Enter begining location</br>
+        <input type="radio" name="search_type" value="2">Directly search<br/>
+    </p>
+
+    <p>
+        Please enter your beginning location or park name if you want to diretly search: <input name="location" type="text"/><br/>
+    </p>
+
+    <p>
+        If you want to use your beginning location, do you want a park limited to 350 miles away from your beginning location?<br>
+        <input type="radio" name="distance" value="1">Yes<br/>
+        <input type="radio" name="distance" value="2">No, I do not need to limit the distance<br/>
+        <input type="radio" name="distance" value="3">N/A, I want to search a park directly<br/>
+    </p>
+
+    <p>
+        Please specify your desired cloudiness<br>
+        <input type="radio" name="cloud" value="1">Cloud percentage is at most 20%<br/>
+        <input type="radio" name="cloud" value="2">Cloud percentage is at most 10%<br/>
+    </p>
+
+    <p>
+        Please specify your desired display option<br>
+        <input type="radio" name="option" value="1">Sort by distance<br/>
+        <input type="radio" name="option" value="2">Sort by date<br/>
+        <input type="radio" name="option" value="3">Sort by time<br/>
+        <input type="radio" name="option" value="4">Sort by cloud percentage<br/>
+    </p>
+
+
+
+
+
+
+
+    <!-- <p>
+        Which do you like?<br/>
+        <input type="checkbox" name="like_pizza"> Pizza <br/>
+        <input type="checkbox" name="like_sushi"> Sushi <br/>
+        <input type="checkbox" name="like_massaman"> Massaman Curry <br/>    
+    </p> -->
+
+    <input type="submit" value="Submit Form"/>
+  </form>  
+
+</body>
+
+</html>
