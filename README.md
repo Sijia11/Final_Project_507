@@ -54,7 +54,7 @@ Required Python packages
 
 * Head over to [http://127.0.0.1:5000/](http://127.0.0.1:5000/), and you should see the application.
 
-* Fill in your preferences
+* Fill in your preferences:
 1. Select whether you want to search by entering a beginning location and find parks near the beginning location or you want to search a park directly
 2. Enter your beginning location or your park name if you want to search directly
 3. Select whether you want to limit your result to 350 miles from your beginning location. If you search a park directly please select “N/A, I want to search a park directly”
